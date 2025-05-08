@@ -86,10 +86,10 @@ To run batch processing:
 bash# Process patients 1-5
 python project/scripts/batch_eeg_processor.py 1 5
 
-# Process patients 6-10
+Process patients 6-10
 python project/scripts/batch_eeg_processor.py 6 10
 
-# Combine all processed patient data
+Combine all processed patient data
 python project/scripts/batch_eeg_processor.py
 Alternatively, use the batch runner script:
 bash./run-batch-processing.sh
